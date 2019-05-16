@@ -13,6 +13,8 @@
 		ED2CC4BE228DBFC100359722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2CC4BD228DBFC100359722 /* Assets.xcassets */; };
 		ED2CC4C1228DBFC100359722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2CC4BF228DBFC100359722 /* LaunchScreen.storyboard */; };
 		ED2CC4C4228DBFC100359722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC4C3228DBFC100359722 /* main.m */; };
+		ED2CC4CC228DC36200359722 /* RepoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC4CB228DC36200359722 /* RepoTableViewCell.m */; };
+		ED2CC4CF228DC37400359722 /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC4CE228DC37400359722 /* Repo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		ED2CC4C0228DBFC100359722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED2CC4C2228DBFC100359722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED2CC4C3228DBFC100359722 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED2CC4CA228DC36200359722 /* RepoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepoTableViewCell.h; sourceTree = "<group>"; };
+		ED2CC4CB228DC36200359722 /* RepoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepoTableViewCell.m; sourceTree = "<group>"; };
+		ED2CC4CD228DC37400359722 /* Repo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
+		ED2CC4CE228DC37400359722 /* Repo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Repo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				ED2CC4B7228DBFC000359722 /* ViewController.h */,
 				ED2CC4B8228DBFC000359722 /* ViewController.m */,
 				ED2CC4BA228DBFC000359722 /* Main.storyboard */,
+				ED2CC4CA228DC36200359722 /* RepoTableViewCell.h */,
+				ED2CC4CB228DC36200359722 /* RepoTableViewCell.m */,
+				ED2CC4CD228DC37400359722 /* Repo.h */,
+				ED2CC4CE228DC37400359722 /* Repo.m */,
 				ED2CC4BD228DBFC100359722 /* Assets.xcassets */,
 				ED2CC4BF228DBFC100359722 /* LaunchScreen.storyboard */,
 				ED2CC4C2228DBFC100359722 /* Info.plist */,
@@ -141,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2CC4CF228DC37400359722 /* Repo.m in Sources */,
 				ED2CC4B9228DBFC000359722 /* ViewController.m in Sources */,
 				ED2CC4C4228DBFC100359722 /* main.m in Sources */,
 				ED2CC4B6228DBFC000359722 /* AppDelegate.m in Sources */,
+				ED2CC4CC228DC36200359722 /* RepoTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D2VZ8N8LJC;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GithubRepos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D2VZ8N8LJC;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GithubRepos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
